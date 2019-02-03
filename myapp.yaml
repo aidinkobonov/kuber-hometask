@@ -3,7 +3,6 @@ kind: Pod
 metadata:
   name: containers
 spec:
-  restartPolicy: Never
   containers:
     - image: nginx
       name: nginx
